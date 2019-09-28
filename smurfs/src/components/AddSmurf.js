@@ -20,6 +20,16 @@ class AddSmurf extends Component {
         }
     };     
     
+    onDelete = e => {
+      e.preventDefault();
+       if (this.state.age.trim() && this.state.name.trim() && this.state.height.trim()) {
+
+      
+        //this.props.removetheSmurf(this.state);
+     
+     }
+    };     
+ 
    
     
     onInputChange = e => {
@@ -81,7 +91,7 @@ class AddSmurf extends Component {
             
             <div className="Smurf-form">
               
-              <button type="submit" className="delete-btn" >DELETE SMURF</button>
+              <button type="submit" className="delete-btn" onClick={this.onDelete}>DELETE SMURF</button>
               
             </div>
 
