@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: #222 .5px dashed;
+
 }
 
 .App-logo {
@@ -25,4 +30,109 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.appHeader {
+   
+  display: flex;
+  margin: 0 auto;
+  background-image: url(../Smurfs.PNG);
+  height: 212px;
+  width: 1250px;  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+
+} 
+
+.appHeader h1 {
+  color: rgb(250, 248, 151);
+  font-size: 6rem;
+  text-shadow: 2px 2px black;
+}
+
+.smurf-Cards {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1100px;  
+  margin: 0 auto; 
+}
+
+.smurf-card {
+  
+  color: rgb(250, 248, 151);
+  text-shadow: 1px 1px black;
+  width: 250px;
+  height: 250px;
+  background-color: aliceblue;
+  border: black solid 2px;
+  margin: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-image: url(../grouchy-smurf-papa-smurf-gargamel-smurfette-brainy-smurf-animation.jpg);
+  text-align: left;
+
+}
+
+.smurf-card h3{
+
+  margin-left: 5px;
+
+}
+
+.smurf-card img{
+
+  width: 250px;
+  height: 250px;
+
+} 
+
+.submit-btn {
+  
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 125px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color:  rgb(250, 248, 151);
+  text-shadow: 1px 1px black;
+  font-size: .75rem;
+}
+
+.delete-btn {
+  
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 125px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color:  rgb(250, 248, 151);
+  text-shadow: 1px 1px black;
+  font-size: .75rem;
+
+
+}
+
+.smurf-input {
+
+  width: 150px;
+  height: 20px; 
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 3px;
+  padding: 1px 1px 1px 2px;
+  background-color:  rgb(250, 248, 151);
+}
+
+.main-smurf-form {
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
