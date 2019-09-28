@@ -5,7 +5,7 @@ function TheHeader() {
 
     return (
 
-        <div className="appHeader"><h1>SMURFS! 2.0</h1></div>
+        <div className="appHeader"><h1>SMURFS! 2.0 W/ Redux</h1></div>
         
     )
 
