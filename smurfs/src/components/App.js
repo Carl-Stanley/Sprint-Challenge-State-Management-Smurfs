@@ -44,7 +44,7 @@ const mapProps = state => {
   return {
     
     data: state.data,
-    isFetching: state.gettingSmurfs,
+    gettingSmurfs: state.gettingSmurfs,
     error: state.error
   
   }
